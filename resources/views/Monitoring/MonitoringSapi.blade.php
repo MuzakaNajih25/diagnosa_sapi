@@ -221,7 +221,7 @@
 
     .mon-empty {
         text-align: center;
-        padding: 50px 20px;
+        padding: 50px 20px;  
         color: var(--text-secondary);
     }
     .mon-empty i { font-size: 40px; opacity: 0.4; margin-bottom: 10px; display: block; }
