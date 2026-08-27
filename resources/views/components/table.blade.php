@@ -459,6 +459,6 @@ window.UATable = window.UATable || (function () {
         <div class="ua-table-footer">
             <span style="font-size:12px; color:#a0aec0;" id="{{ $id }}PageInfo">–</span>
             <div class="ua-pagination" id="{{ $id }}Pagination"></div>
-        </div>
+        </div>  
     </div>
 </div>  
