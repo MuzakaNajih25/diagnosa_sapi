@@ -104,6 +104,6 @@ class ManagementMonitoringController extends Controller
 
         return redirect()
             ->route('monitoring.index')
-            ->with('success', 'Sapi ditandai sembuh.');
+            ->with('success', 'Sapi ditandai sembuh.');  
     }
 }
