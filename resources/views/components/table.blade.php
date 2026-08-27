@@ -461,4 +461,4 @@ window.UATable = window.UATable || (function () {
             <div class="ua-pagination" id="{{ $id }}Pagination"></div>
         </div>
     </div>
-</div>
+</div>  
