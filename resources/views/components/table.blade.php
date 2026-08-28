@@ -409,7 +409,7 @@ window.UATable = window.UATable || (function () {
 
         @if($addOnclick)
             <button class="ua-btn-add" onclick="{{ $addOnclick }}">
-                <i class="ti ti-plus"></i> {{ $addLabel }}
+                <i class="ti ti-plus"></i> {{ $addLabel }}  
             </button>
         @endif
     </div>
