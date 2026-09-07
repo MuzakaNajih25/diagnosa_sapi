@@ -144,7 +144,7 @@
             content: '';
             position: absolute;
             left: 0; top: 50%;
-            transform: translateY(-50%);
+            transform: translateY(-50%);   
             width: 3px; height: 18px;
             background: var(--sidebar-accent);
             border-radius: 0 3px 3px 0;
