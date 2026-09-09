@@ -130,7 +130,7 @@
             font-weight: 500;
             transition: all 0.18s ease;
             position: relative;
-            cursor: pointer;
+            cursor: pointer; 
         }
 
         .nav-link:hover { background: var(--sidebar-hover); color: var(--sidebar-text-active); }
