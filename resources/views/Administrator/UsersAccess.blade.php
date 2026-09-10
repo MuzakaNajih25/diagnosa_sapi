@@ -621,7 +621,7 @@ function updateSortIcons() {
         } else {
             icon.textContent = '⇅';
         }
-    });
+    }); 
 }
 
 function renderTable() {
