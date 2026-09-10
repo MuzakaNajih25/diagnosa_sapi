@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
-class KonsultasiController extends Controller
+class KonsultasiController extends Controller 
 {
     private string $tableKonsultasi       = 'tb_konsultasi';
     private string $tableDetail           = 'tb_konsultasi_detail';
@@ -28,7 +28,7 @@ class KonsultasiController extends Controller
             $this->idCounters[$prefix] = $last ? ((int) substr($last, strlen($prefix))) : 0;
         }
 
-        $this->idCounters[$prefix]++;
+        $this->idCounters[$prefix]++; 
 
         return $prefix . str_pad($this->idCounters[$prefix], 4, '0', STR_PAD_LEFT);
     }
