@@ -19,7 +19,7 @@ class KonsultasiController extends Controller
      * ke DB tiap dipanggil dalam satu request (mencegah ID duplikat
      * saat insert banyak baris sekaligus/batch).
      */
-    private array $idCounters = [];
+    private array $idCounters = []; 
 
     private function generateId(string $table, string $prefix): string
     {
