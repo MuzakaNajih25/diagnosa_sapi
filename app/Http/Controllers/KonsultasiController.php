@@ -10,7 +10,7 @@ class KonsultasiController extends Controller
     private string $tableKonsultasi       = 'tb_konsultasi';
     private string $tableDetail           = 'tb_konsultasi_detail';
     private string $tableHasil            = 'tb_konsultasi_hasil';
-    private string $tablePenyakit         = 'tb_penyakit';
+    private string $tablePenyakit         = 'tb_penyakit'; 
     private string $tableGejala           = 'tb_gejala';
     private string $tableRelasi           = 'tb_relasi';
  
