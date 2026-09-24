@@ -19,7 +19,7 @@ class ManagementPeternakController extends Controller
 
     /**
      * Tampilkan daftar peternak all
-     */
+     */ 
     public function index()
     {
         $peternak = DB::table($this->table)
