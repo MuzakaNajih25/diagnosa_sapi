@@ -607,7 +607,7 @@ function applySort() {
         }
         va = String(va).toLowerCase();
         vb = String(vb).toLowerCase();  
-        return sortDir === 'asc' ? va.localeCompare(vb) : vb.localeCompare(va);
+        return sortDir === 'asc' ? va.localeCompare(vb) : vb.localeCompare(va); 
     });   
 }
 
