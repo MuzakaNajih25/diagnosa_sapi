@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\DB;
 
 class ManagementPeternakController extends Controller
 {
-    private string $table = 'tb_peternak';
+    private string $table = 'tb_peternak'; 
     private string $prefix = 'PTN';
  
     private function generateId(): string 
