@@ -4,7 +4,7 @@
 
 @section('content')
 
-<x-table
+<x-table 
     id="gejalaTable"
     :columns="[
         ['key' => 'code_gejala', 'label' => 'Kode',        'sortable' => true, 'align' => 'left', 'width' => '110px'],
