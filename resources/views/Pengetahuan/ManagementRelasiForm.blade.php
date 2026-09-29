@@ -6,7 +6,7 @@
 
 {{-- trik: biar CSS .ua-data-table / .ua-search-combo / .ua-status-badge ikut ke-push
      meski halaman ini gak pakai <x-table> beneran (form checklist gak cocok
-     pakai UATable — lihat penjelasan di chat) --}}
+     pakai UATable — lihat penjelasan di chat) --}} 
 @once
     <div style="display:none"><x-table id="__uaStyleLoader" :columns="[]" /></div>
 @endonce
