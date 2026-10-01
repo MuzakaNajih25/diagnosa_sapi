@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\DB;
 
 class ManagementGejalaController extends Controller
 {
-    private string $table = 'tb_gejala';
+    private string $table = 'tb_gejala'; 
     private string $prefix = 'GJL';
 
     private function generateId(): string
