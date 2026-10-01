@@ -16,7 +16,7 @@ class ManagementPeternakController extends Controller
         $number = $last ? ((int) substr($last, strlen($this->prefix)) + 1) : 1;
         return $this->prefix . str_pad($number, 4, '0', STR_PAD_LEFT);
     }
-
+ 
     /**
      * Tampilkan daftar peternak all
      */ 
