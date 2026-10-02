@@ -10,7 +10,7 @@ class ManagementMonitoringController extends Controller
     /**
      * Tampilkan halaman monitoring: tab sehat, tidak sehat, dan perlu ditinjau.
      */
-    public function index()
+    public function index() 
     {
         $sehat = DB::table('tb_sapi')
             ->where('status_kesehatan', 'sehat')
