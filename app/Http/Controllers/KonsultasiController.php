@@ -12,7 +12,7 @@ class KonsultasiController extends Controller
     private string $tableHasil            = 'tb_konsultasi_hasil';
     private string $tablePenyakit         = 'tb_penyakit'; 
     private string $tableGejala           = 'tb_gejala';
-    private string $tableRelasi           = 'tb_relasi';
+    private string $tableRelasi           = 'tb_relasi'; 
  
     /**
      * Cache counter per prefix supaya generateId tidak query ulang
