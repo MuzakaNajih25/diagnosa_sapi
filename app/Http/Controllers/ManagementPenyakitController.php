@@ -11,7 +11,7 @@ class ManagementPenyakitController extends Controller
     private string $prefix = 'PYK';
 
     private function generateId(): string
-    {
+    { 
         $last = DB::table($this->table)->orderByDesc('id')->value('id');
         $number = $last ? ((int) substr($last, strlen($this->prefix)) + 1) : 1;
         return $this->prefix . str_pad($number, 4, '0', STR_PAD_LEFT);
