@@ -84,4 +84,4 @@ class ManagementGejalaController extends Controller
             ->route('pengetahuan.gejala.index')
             ->with('success', 'Data gejala berhasil dihapus.');
     }
-}
+} 
