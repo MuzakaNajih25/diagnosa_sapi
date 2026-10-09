@@ -44,7 +44,6 @@ class ManagementGejalaController extends Controller
         $validated['updated_at'] = now();
 
         DB::table($this->table)->insert($validated);
-
         return redirect()
             ->route('pengetahuan.gejala.index')
             ->with('success', 'Data gejala berhasil ditambahkan.');
