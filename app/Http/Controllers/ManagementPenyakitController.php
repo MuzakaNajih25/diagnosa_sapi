@@ -8,7 +8,7 @@ class ManagementPenyakitController extends Controller
     private string $table = 'tb_penyakit';
     private string $prefix = 'PYK';
 
-    private function generateId(): string
+    private function generateId(): string 
     { 
         $last = DB::table($this->table)->orderByDesc('id')->value('id');
         $number = $last ? ((int) substr($last, strlen($this->prefix)) + 1) : 1;
