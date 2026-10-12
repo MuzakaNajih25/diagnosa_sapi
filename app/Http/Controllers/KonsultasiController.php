@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;   
 
-class KonsultasiController extends Controller 
+class KonsultasiController extends Controller  
 {
     private string $tableKonsultasi       = 'tb_konsultasi';
     private string $tableDetail           = 'tb_konsultasi_detail';
