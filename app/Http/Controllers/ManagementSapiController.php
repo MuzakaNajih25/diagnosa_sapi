@@ -8,7 +8,6 @@ class ManagementSapiController extends Controller
 {
     private string $table = 'tb_sapi'; 
     private string $prefix = 'SPI';
-
     private function generateId(): string  
     {
         $last = DB::table($this->table)->orderByDesc('id')->value('id');
